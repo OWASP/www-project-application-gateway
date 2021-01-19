@@ -2,21 +2,45 @@
 
 layout: col-sidebar
 title: OWASP Application Gateway
-tags: example-tag
+tags: iam, oauth2
 level: 1
-type: 
-pitch: A very brief, one-line description of your project
+type: tool
+pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+[![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://owasp.org/www-project-application-gateway/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/gianlucafrei/Application-Gateway/blob/main/LICENSE)
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gianlucafrei/nellygateway)](https://github.com/gianlucafrei/Application-Gateway/releases)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5eaa206a103e4b28be9da2ba857d1653)](https://app.codacy.com/gh/gianlucafrei/nellygateway?utm_source=github.com&utm_medium=referral&utm_content=gianlucafrei/nellygateway&utm_campaign=Badge_Grade)
+[![Java CI with Maven](https://github.com/gianlucafrei/nellygateway/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/gianlucafrei/Application-Gateway/actions?query=workflow%3ACI%2FCD)
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet.**
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## What is the OWASP Application Gateway?
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+OWASP Application Gateway is an HTTP reverse proxy that sits between your web application and the client and handles Oauth2 login and session management. For you, as a developer, OWASP Application Gateway removes the hassle to implement complicated oauth2 logic in the backend and frontend so you can focus totally on your applications logic.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 4 - Flagship)
+<img src="https://raw.githubusercontent.com/gianlucafrei/Application-Gateway/main/doc/overview.png" width="500" />
 
-type: code, tool, documentation, or other
+## Functionality
+
+- HTTPS Redirection with Proxy Awareness
+- OpenID Connect Login with multiple providers
+- Multiple Backend routes
+- Authenticated routes
+- Request Logging
+- Add and remove response headers
+- Secure, HTTP-only and same-site session cookies
+- Forward id token to backend
+- Upstream authentication with API key
+- GitHub Login support
+- Method whitelisting
+- CSRF Protection
+- more to come...
+
+See also the documentation [GitHub](https://github.com/gianlucafrei/Application-Gateway)
+
+## Contributing
+
+All kinds of contributions are much wanted and highly appreciated! You can help us with coding, writing documentation, propose architectural improvements, test the prototype, advocate the project or any other kind of activity. Please make sure to read the [CONTRIBUTION.md](https://github.com/gianlucafrei/Application-Gateway/blob/main/CONTRIBUTING.md) before you start coding. If you have any questions or are not sure how exactly you can contribute feal free to contact any of the project leaders.
