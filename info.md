@@ -8,3 +8,5 @@
 ### Code Repository
 * [GitHub](https://github.com/gianlucafrei/Application-Gateway)
 
+### Documentation
+* [Wiki on Github](https://github.com/gianlucafrei/Application-Gateway/wiki)
