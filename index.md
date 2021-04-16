@@ -2,8 +2,8 @@
 
 layout: col-sidebar
 title: OWASP Application Gateway
-tags: iam, oauth2
-level: 1
+tags: iam, oauth2, oag
+level: 2
 type: tool
 pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management
 
@@ -12,7 +12,6 @@ pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentica
 [![OWASP Incubator](https://img.shields.io/badge/owasp-incubator-blue.svg)](https://owasp.org/www-project-application-gateway/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/gianlucafrei/Application-Gateway/blob/main/LICENSE)
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gianlucafrei/nellygateway)](https://github.com/gianlucafrei/Application-Gateway/releases)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5eaa206a103e4b28be9da2ba857d1653)](https://app.codacy.com/gh/gianlucafrei/nellygateway?utm_source=github.com&utm_medium=referral&utm_content=gianlucafrei/nellygateway&utm_campaign=Badge_Grade)
 [![Java CI with Maven](https://github.com/gianlucafrei/nellygateway/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/gianlucafrei/Application-Gateway/actions?query=workflow%3ACI%2FCD)
 
 🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet.**
@@ -22,9 +21,11 @@ pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentica
 
 OWASP Application Gateway is an HTTP reverse proxy that sits between your web application and the client and handles Oauth2 login, session management as well as other security aspects and operational requirements (including for example correlation logging / tracing). For you, as a developer, OWASP Application Gateway removes the hassle to implement complicated oauth2 logic in the backend and frontend so you can focus totally on your applications logic. OAG is built in an extendable way, so that it is easy to customize it with your own code when required.
 
+<a href="https://github.com/gianlucafrei/Application-Gateway"><img src="https://github.com/gianlucafrei/Application-Gateway/blob/main/doc/OAG-Overrview.png?raw=true" alt="Overview diagram of OAG"></a>
+
 ## Abstract
 
-<script async class="speakerdeck-embed" data-id="03a8b5ec38aa4979aab3f106d06a3aa5" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+See: <a href="https://speakerdeck.com/gianlucafrei/owasp-application-gateway-abstract">Speakerdeck</a>
 
 ## Functionality
 
