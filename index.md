@@ -5,7 +5,7 @@ title: OWASP Application Gateway
 tags: iam, oauth2, oag
 level: 2
 type: tool
-pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management
+pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management and can issue verifyable JWT tokens for downstream systems.
 
 ---
 
@@ -14,7 +14,7 @@ pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentica
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/gianlucafrei/nellygateway)](https://github.com/gianlucafrei/Application-Gateway/releases)
 [![Java CI with Maven](https://github.com/gianlucafrei/nellygateway/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/gianlucafrei/Application-Gateway/actions?query=workflow%3ACI%2FCD)
 
-🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet.**
+🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet. - We are on Version 0.5.1.**
 
 <a href="https://github.com/gianlucafrei/Application-Gateway/wiki"><img src="https://raw.githubusercontent.com/gianlucafrei/Application-Gateway/main/doc/pictures/Banner.png" width="500" /></a>
 ## What is the OWASP Application Gateway?
