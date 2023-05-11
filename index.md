@@ -2,7 +2,7 @@
 
 layout: col-sidebar
 title: OWASP Application Gateway
-tags: iam, oauth2, oag
+tags: iam, oauth2, oag, reverse proxy, gateway
 level: 2
 type: tool
 pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management and can issue verifyable JWT tokens for downstream systems.
