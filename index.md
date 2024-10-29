@@ -15,7 +15,7 @@ pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentica
 [![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/last-commit/gianlucafrei/nellygateway)](https://github.com/gianlucafrei/Application-Gateway)
 [CI/CD](https://github.com/gianlucafrei/Application-Gateway/actions?query=workflow%3ACI%2FCD)
 
-🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet. - We are on Version 0.6.1.**
+🏗️ **OWASP Application Gateway is work-in-progress. No productive version has been released yet.**
 
 <a href="https://the-oag-development-project.github.io/"><img src="https://raw.githubusercontent.com/The-OAG-Development-Project/Application-Gateway/main/doc/pictures/Banner.png" width="500" /></a>
 ## What is the OWASP Application Gateway?
