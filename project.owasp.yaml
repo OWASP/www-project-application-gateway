@@ -11,8 +11,7 @@ level: 2
 license:
   - Apache-2.0
 name: OWASP Application Gateway
-pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management and can issue verifyable JWT tokens for downstream
-  systems.
+pitch: OWASP Application Gateway is an HTTP proxy that handles Oauth2/OpenID Connect authentication and session management and can issue verifyable JWT tokens for downstream systems.
 repositories:
   - name: www-project-application-gateway
     url: https://github.com/OWASP/www-project-application-gateway
@@ -22,12 +21,14 @@ repositories:
     description: Organisation info repository
   - name: Application-Gateway
     url: https://github.com/The-OAG-Development-Project/Application-Gateway
-    description: OWASP Application Gateway is an HTTP proxy that handles Oauth2 authentication and session management
+    description: OWASP Application Gateway is an HTTP proxy that handles Oauth2/OpenID Connect authentication and session management
   - name: The-OAG-Development-Project.github.io
     url: https://github.com/The-OAG-Development-Project/The-OAG-Development-Project.github.io
 tags:
   - iam
   - oauth2
+  - openidconnect
+  - oidc
   - oag
   - reverse proxy
   - gateway
